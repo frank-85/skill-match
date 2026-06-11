@@ -1,0 +1,205 @@
+{
+  "questions": [
+    {
+      "id": "q01_intro",
+      "type": "intro_text",
+      "title": "Bilancio competenze in 6 minuti",
+      "subtitle": "Rispondi a poche domande e scopri per quali ruoli sei davvero in linea. 70 competenze. 12 aziende italiane reali.",
+      "writes_to": "_intro"
+    },
+    {
+      "id": "q02_availability",
+      "type": "single_choice",
+      "title": "Come preferisci lavorare?",
+      "subtitle": "Cosa cerchi nei prossimi 12 mesi",
+      "options": [
+        { "value": "dipendente", "label": "Dipendente (a tempo indeterminato/determinato)" },
+        { "value": "p_iva",      "label": "P.IVA / freelance / agente" },
+        { "value": "entrambi",   "label": "Valuto entrambi" }
+      ],
+      "writes_to": "availability"
+    },
+    {
+      "id": "q03_experience",
+      "type": "slider",
+      "title": "Quanti anni di esperienza lavorativa hai?",
+      "subtitle": "Includi anche stage, P.IVA e progetti freelance",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "writes_to": "experience_years"
+    },
+    {
+      "id": "q04_language",
+      "type": "single_choice",
+      "title": "Come va con l'inglese?",
+      "options": [
+        { "value": "solo_it",      "label": "Solo italiano" },
+        { "value": "it_en_base",   "label": "Italiano + inglese base (capisco mail e meeting semplici)" },
+        { "value": "it_en_fluent", "label": "Italiano + inglese fluente (parlo e scrivo senza problemi)" }
+      ],
+      "writes_to": "language_it_en"
+    },
+    {
+      "id": "q05_areas",
+      "type": "multi_choice",
+      "title": "In quali aree ti riconosci?",
+      "subtitle": "Scegli fino a 3 aree che descrivono meglio quello che sai fare oggi",
+      "max_select": 3,
+      "options": [
+        { "value": "TECH",  "label": "Tecnologia & sviluppo",        "icon": "💻" },
+        { "value": "BIZ",   "label": "Marketing & growth",           "icon": "📈" },
+        { "value": "SELL",  "label": "Commerciale & vendita",        "icon": "🤝" },
+        { "value": "CREA",  "label": "Creatività & contenuti",       "icon": "🎨" },
+        { "value": "OPS",   "label": "Operations & gestione",        "icon": "⚙️" },
+        { "value": "REL",   "label": "Relazione & cura",             "icon": "🤲" },
+        { "value": "CRAFT", "label": "Mestiere & artigianalità",     "icon": "🔨" }
+      ],
+      "writes_to": "selected_areas"
+    },
+    {
+      "id": "q06_tech",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "TECH" },
+      "title": "Tecnologia & sviluppo",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5. Se non la usi, lascia 0.",
+      "items": [
+        { "tag": "tech.ai_tools",   "label": "ChatGPT / Claude / strumenti AI generativi" },
+        { "tag": "tech.python",     "label": "Python" },
+        { "tag": "tech.javascript", "label": "JavaScript / TypeScript / React" },
+        { "tag": "tech.data",       "label": "Excel avanzato / SQL / analytics" },
+        { "tag": "tech.no_code",    "label": "No-code (Zapier, Make, Bubble)" },
+        { "tag": "tech.web_basic",  "label": "HTML/CSS / WordPress" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q07_biz",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "BIZ" },
+      "title": "Marketing & growth",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5.",
+      "items": [
+        { "tag": "biz.copywriting",        "label": "Copywriting" },
+        { "tag": "biz.social_media",       "label": "Social media management" },
+        { "tag": "biz.seo_sem",            "label": "SEO / SEM / Google Ads" },
+        { "tag": "biz.email_marketing",    "label": "Email marketing / newsletter" },
+        { "tag": "biz.brand_strategy",     "label": "Brand strategy" },
+        { "tag": "biz.analytics_marketing","label": "Analytics marketing" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q08_sell",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "SELL" },
+      "title": "Commerciale & vendita",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5.",
+      "items": [
+        { "tag": "sell.b2b_field",     "label": "Vendita B2B sul campo" },
+        { "tag": "sell.key_account",   "label": "Gestione clienti chiave" },
+        { "tag": "sell.agente_p_iva",  "label": "Agenzia / rappresentanza P.IVA" },
+        { "tag": "sell.cold_outreach", "label": "Prospecting / lead generation" },
+        { "tag": "sell.negotiation",   "label": "Negoziazione strutturata" },
+        { "tag": "sell.ho_re_ca",      "label": "Canale Horeca / retail specializzato" },
+        { "tag": "sell.tech_sales",    "label": "Vendita SaaS / software" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q09_crea",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "CREA" },
+      "title": "Creatività & contenuti",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5.",
+      "items": [
+        { "tag": "crea.video_editing",   "label": "Video editing" },
+        { "tag": "crea.motion_graphics", "label": "Motion graphics / animazione" },
+        { "tag": "crea.graphic_design",  "label": "Graphic design" },
+        { "tag": "crea.brand_visual",    "label": "Brand visual identity" },
+        { "tag": "crea.photography",     "label": "Fotografia professionale" },
+        { "tag": "crea.ui_design",       "label": "UI design (Figma)" },
+        { "tag": "crea.content_creation","label": "Content creation (Reels/TikTok)" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q10_ops",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "OPS" },
+      "title": "Operations & gestione",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5.",
+      "items": [
+        { "tag": "ops.project_mgmt",        "label": "Project management" },
+        { "tag": "ops.team_lead",           "label": "Team leadership" },
+        { "tag": "ops.hr",                  "label": "HR / recruiting" },
+        { "tag": "ops.amministrazione",     "label": "Amministrazione / contabilità" },
+        { "tag": "ops.budget_mgmt",         "label": "Gestione budget" },
+        { "tag": "ops.process_optimization","label": "Ottimizzazione processi" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q11_rel",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "REL" },
+      "title": "Relazione & cura",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5.",
+      "items": [
+        { "tag": "rel.customer_care",          "label": "Customer care / customer success" },
+        { "tag": "rel.formazione",             "label": "Formazione / docenza aziendale" },
+        { "tag": "rel.coaching",               "label": "Coaching individuale" },
+        { "tag": "rel.public_speaking",        "label": "Public speaking" },
+        { "tag": "rel.consulenza_relazionale", "label": "Consulenza relazionale ai clienti" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q12_craft",
+      "type": "tag_scale",
+      "show_if": { "selected_areas_contains": "CRAFT" },
+      "title": "Mestiere & artigianalità",
+      "subtitle": "Per ognuna indica il tuo livello da 0 a 5.",
+      "items": [
+        { "tag": "craft.cucina",          "label": "Cucina professionale" },
+        { "tag": "craft.ceramica",        "label": "Ceramica / artigianato" },
+        { "tag": "craft.brigata_kitchen", "label": "Gestione brigata di cucina" },
+        { "tag": "craft.somelier",        "label": "Sommellerie" },
+        { "tag": "craft.shop_management", "label": "Gestione punto vendita" }
+      ],
+      "scale_labels": ["Mai", "Affacciato", "Sotto guida", "Autonomo", "Avanzato", "Expert"],
+      "writes_to": "tags"
+    },
+    {
+      "id": "q13_certs",
+      "type": "multi_choice",
+      "title": "Hai una o più di queste certificazioni?",
+      "subtitle": "Anche se scadute. Multipla.",
+      "options": [
+        { "value": "google_ads",            "label": "Google Ads / Google Analytics" },
+        { "value": "hubspot",               "label": "HubSpot (Marketing/Sales)" },
+        { "value": "microsoft_office",      "label": "Microsoft Office Specialist" },
+        { "value": "aws_azure",             "label": "AWS / Azure" },
+        { "value": "pmp",                   "label": "PMP (Project Management Professional)" },
+        { "value": "salesforce_admin",      "label": "Salesforce Admin" },
+        { "value": "adobe_certified",       "label": "Adobe Certified" },
+        { "value": "cambridge_toefl_ielts", "label": "Cambridge / TOEFL / IELTS" },
+        { "value": "ecdl",                  "label": "ECDL" }
+      ],
+      "writes_to": "certifications"
+    },
+    {
+      "id": "q14_final",
+      "type": "intro_text",
+      "title": "Pronto per il match?",
+      "subtitle": "Sto per calcolare i 3 ruoli più in linea con il tuo profilo tra le 12 aziende del catalogo.",
+      "writes_to": "_final"
+    }
+  ]
+}

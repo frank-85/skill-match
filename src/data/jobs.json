@@ -1,0 +1,263 @@
+{
+  "jobs": [
+    {
+      "id": "job_01",
+      "company": "Reply Verona",
+      "role": "Junior Full-Stack Developer",
+      "location": "Verona (ibrido)",
+      "contract": "indeterminato",
+      "seniority": "junior",
+      "required_tags": {
+        "tech.javascript": 3,
+        "tech.python": 2,
+        "tech.web_basic": 3
+      },
+      "nice_to_have": {
+        "tech.devops": 2,
+        "ops.project_mgmt": 2,
+        "tech.ai_tools": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 0,
+      "experience_max": 3,
+      "why_apply": "Azienda strutturata con percorsi di crescita, mentoring senior, progetti enterprise"
+    },
+    {
+      "id": "job_02",
+      "company": "Freelance",
+      "role": "AI Consultant per PMI",
+      "location": "Remoto / Italia",
+      "contract": "p_iva",
+      "seniority": "senior",
+      "required_tags": {
+        "tech.ai_tools": 5,
+        "rel.consulenza_relazionale": 4,
+        "rel.formazione": 3
+      },
+      "nice_to_have": {
+        "biz.content_strategy": 3,
+        "tech.no_code": 3,
+        "sell.cold_outreach": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 4,
+      "experience_max": 20,
+      "why_apply": "Domanda esplosiva nel 2025-26, ticket €5-30k per progetto, libertà di setup"
+    },
+    {
+      "id": "job_03",
+      "company": "Calzedonia",
+      "role": "Data Analyst Marketing",
+      "location": "Malo (VI)",
+      "contract": "indeterminato",
+      "seniority": "mid",
+      "required_tags": {
+        "tech.data": 4,
+        "biz.analytics_marketing": 3,
+        "ops.process_optimization": 2
+      },
+      "nice_to_have": {
+        "tech.python": 2,
+        "biz.seo_sem": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 2,
+      "experience_max": 8,
+      "why_apply": "Brand globale, dataset retail enorme, team analytics maturo"
+    },
+    {
+      "id": "job_04",
+      "company": "Allegrini",
+      "role": "Social Media Manager",
+      "location": "Fumane (VR)",
+      "contract": "indeterminato",
+      "seniority": "mid",
+      "required_tags": {
+        "biz.social_media": 4,
+        "biz.content_strategy": 3,
+        "biz.copywriting": 3
+      },
+      "nice_to_have": {
+        "crea.photography": 2,
+        "crea.content_creation": 3,
+        "biz.brand_strategy": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 2,
+      "experience_max": 8,
+      "why_apply": "Storytelling vinicolo top, brand premium, territorio Valpolicella"
+    },
+    {
+      "id": "job_05",
+      "company": "Lavazza",
+      "role": "Key Account Manager HORECA Nord-Est",
+      "location": "Verona / trasferte",
+      "contract": "indeterminato",
+      "seniority": "mid",
+      "required_tags": {
+        "sell.key_account": 4,
+        "sell.ho_re_ca": 4,
+        "sell.negotiation": 3
+      },
+      "nice_to_have": {
+        "sell.tech_sales": 2,
+        "tech.data": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 3,
+      "experience_max": 10,
+      "why_apply": "Brand storico, autonomia su clienti chiave HORECA premium"
+    },
+    {
+      "id": "job_06",
+      "company": "Freelance",
+      "role": "Agente Plurimandatario food&beverage",
+      "location": "Triveneto",
+      "contract": "p_iva",
+      "seniority": "senior",
+      "required_tags": {
+        "sell.agente_p_iva": 4,
+        "sell.b2b_field": 4,
+        "sell.cold_outreach": 3,
+        "sell.ho_re_ca": 3
+      },
+      "nice_to_have": {
+        "sell.wholesale": 3,
+        "sell.negotiation": 3
+      },
+      "language": "solo_it",
+      "experience_min": 5,
+      "experience_max": 20,
+      "why_apply": "Mandati multipli su brand italiani, provvigioni 5-15%, libertà di portfolio"
+    },
+    {
+      "id": "job_07",
+      "company": "TeamSystem",
+      "role": "Account Tech Sales SaaS",
+      "location": "Verona / ibrido",
+      "contract": "indeterminato",
+      "seniority": "mid",
+      "required_tags": {
+        "sell.tech_sales": 4,
+        "sell.cold_outreach": 3,
+        "tech.ai_tools": 2
+      },
+      "nice_to_have": {
+        "sell.key_account": 3,
+        "tech.data": 2,
+        "biz.email_marketing": 2
+      },
+      "language": "it_en_fluent",
+      "experience_min": 2,
+      "experience_max": 8,
+      "why_apply": "Mercato SaaS B2B italiano in crescita, OTE €60-80k, prodotto consolidato"
+    },
+    {
+      "id": "job_08",
+      "company": "Freelance",
+      "role": "Video Editor & Motion Designer",
+      "location": "Remoto",
+      "contract": "p_iva",
+      "seniority": "mid",
+      "required_tags": {
+        "crea.video_editing": 4,
+        "crea.motion_graphics": 3
+      },
+      "nice_to_have": {
+        "crea.content_creation": 3,
+        "biz.social_media": 2,
+        "crea.brand_visual": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 2,
+      "experience_max": 15,
+      "why_apply": "Domanda alta da PMI e creator, day rate €250-500, lavoro asincrono"
+    },
+    {
+      "id": "job_09",
+      "company": "Studio Boggeri",
+      "role": "Junior Brand Designer",
+      "location": "Milano",
+      "contract": "indeterminato",
+      "seniority": "junior",
+      "required_tags": {
+        "crea.graphic_design": 3,
+        "crea.brand_visual": 3,
+        "crea.ui_design": 2
+      },
+      "nice_to_have": {
+        "crea.illustration": 2,
+        "biz.brand_strategy": 2
+      },
+      "language": "it_en_base",
+      "experience_min": 0,
+      "experience_max": 3,
+      "why_apply": "Studio storico, mentorship di alto livello, portfolio internazionale"
+    },
+    {
+      "id": "job_10",
+      "company": "H-FARM",
+      "role": "Project Manager Digital",
+      "location": "Roncade (TV)",
+      "contract": "indeterminato",
+      "seniority": "mid",
+      "required_tags": {
+        "ops.project_mgmt": 4,
+        "biz.content_strategy": 2,
+        "rel.consulenza_relazionale": 3
+      },
+      "nice_to_have": {
+        "tech.ai_tools": 2,
+        "ops.team_lead": 3,
+        "ops.budget_mgmt": 2
+      },
+      "language": "it_en_fluent",
+      "experience_min": 3,
+      "experience_max": 10,
+      "why_apply": "Ecosistema innovazione Nord-Est, progetti corporate digitali, network forte"
+    },
+    {
+      "id": "job_11",
+      "company": "Freelance",
+      "role": "Formatore AI per aziende",
+      "location": "Italia / trasferte",
+      "contract": "p_iva",
+      "seniority": "senior",
+      "required_tags": {
+        "rel.formazione": 5,
+        "tech.ai_tools": 5,
+        "rel.public_speaking": 3
+      },
+      "nice_to_have": {
+        "sell.b2b_field": 2,
+        "biz.content_strategy": 3,
+        "rel.consulenza_relazionale": 3
+      },
+      "language": "it_en_base",
+      "experience_min": 4,
+      "experience_max": 20,
+      "why_apply": "Mercato esploso 2024-26, day rate €1000-2500, opportunità keynote/eventi"
+    },
+    {
+      "id": "job_12",
+      "company": "Ristorante Casa Perbellini",
+      "role": "Sous Chef",
+      "location": "Verona centro",
+      "contract": "indeterminato",
+      "seniority": "mid",
+      "required_tags": {
+        "craft.cucina": 4,
+        "craft.brigata_kitchen": 3,
+        "ops.team_lead": 3
+      },
+      "nice_to_have": {
+        "craft.somelier": 2,
+        "rel.formazione": 2
+      },
+      "language": "solo_it",
+      "experience_min": 4,
+      "experience_max": 15,
+      "why_apply": "Ristorante 2 stelle Michelin, formazione di altissimo livello, brigata strutturata"
+    }
+  ]
+}

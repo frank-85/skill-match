@@ -1,0 +1,544 @@
+{
+  "questions_by_job": {
+    "job_01": {
+      "intro_quote": "Sei nella sede Reply di Verona, sala vetro. Davanti a te c'è il tech lead del team in cui potresti entrare. Vuole capire come ragioni.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Raccontati in 60 secondi: chi sei, cosa hai costruito di recente, perché il software ti accende.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi un progetto in cui hai usato JavaScript o React per risolvere un problema reale. Come hai strutturato il codice?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["react", "componente", "stato", "props", "javascript", "typescript", "api", "deploy", "git", "test"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Hai mai dovuto integrare due sistemi che non parlavano fra loro? Cosa hai fatto, in quale ordine?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["integrazione", "api", "endpoint", "auth", "documentazione", "pull request"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Raccontami di un bug critico che hai chiuso sotto pressione. Situazione, azione, risultato.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["bug", "produzione", "log", "ipotesi", "fix", "rollback", "testato"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Cosa sai di Reply: che tipo di azienda è, su quali tecnologie punta, perché ha senso per la tua crescita?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["reply", "consulenza", "cloud", "ai", "enterprise", "crescita", "torino", "milano"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Se ti scegliamo, cosa avremo guadagnato fra sei mesi rispetto ad altri candidati?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_02": {
+      "intro_quote": "Sei in videocall col fondatore di una PMI manifatturiera del Nord. Ha letto della tua attività di consulenza AI e vuole capire se vale la pena affidarti un progetto pilota da 15.000 euro.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: chi sei, quali progetti AI hai consegnato di recente, cosa ti rende diverso dagli altri consulenti.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Raccontami un caso d'uso AI concreto che hai realizzato per una PMI italiana. Strumento, processo, risultato misurabile.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["chatgpt", "claude", "automazione", "prompt", "workflow", "processo", "risparmio", "ore", "pmi", "produttività"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Un cliente non ha idee chiare ma vuole \"fare AI\". Come imposti il primo incontro per arrivare a un brief utile?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["ascolto", "domanda", "obiettivo", "processo", "discovery", "kpi", "perimetro", "pilota"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un progetto AI che ti è andato male. Cosa è successo, cosa hai cambiato dopo.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "azione", "risultato", "imparato", "ridefinito", "feedback"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Una PMI italiana di 50 persone vuole adottare l'AI. Quali sono i tre rischi reali che vedi e come li gestiresti?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["adozione", "resistenza", "gdpr", "dato", "privacy", "formazione", "change management", "costo", "roi"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Convincimi in 30 secondi: perché dovrei affidare a te questo pilota e non a un'agenzia strutturata?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_03": {
+      "intro_quote": "Sei negli uffici Calzedonia a Malo, vicino Vicenza. Davanti a te la head of marketing analytics. Vuole capire se sai trasformare numeri grezzi in decisioni.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Raccontati in 60 secondi: percorso, strumenti che usi ogni giorno, cosa ti accende nei dati.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi un'analisi che hai fatto per il marketing. Domanda di partenza, dataset, metodo, insight che hai consegnato.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["dashboard", "dataset", "sql", "excel", "segmentazione", "conversione", "funnel", "ga4", "kpi", "cohort"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Il direttore marketing chiede \"perché le vendite online sono calate\". Come imposti l'analisi nelle prime due ore?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["ipotesi", "segmentazione", "periodo", "canale", "traffico", "conversione", "anomalia", "drill down"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Hai presentato un'analisi e il business l'ha ignorata. Cosa è successo, cosa cambieresti nella prossima.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "presentato", "azione", "risultato", "imparato", "narrativa", "stakeholder"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Calzedonia ha mille store fisici e un e-commerce forte. Quali dati userai per capire l'efficacia delle campagne cross-channel?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["omnichannel", "attribuzione", "store", "ecommerce", "campagna", "conversion", "footfall", "retail", "scontrino"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Tra sei mesi, qual è il segno che ti hanno dato lo stipendio giusto?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_04": {
+      "intro_quote": "Sei in cantina Allegrini a Fumane, Valpolicella. La responsabile comunicazione ti porta in giro tra le botti. Vuole capire se sai raccontare il vino senza ucciderlo di marketing.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: percorso nel digitale, brand che hai gestito, come ti rapporti con prodotti di nicchia premium.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi una campagna social che hai costruito da zero. Idea creativa, formato, risultato di engagement reale.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["instagram", "reel", "tiktok", "storytelling", "engagement", "copy", "hashtag", "community", "creator", "calendario"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Devi raccontare l'Amarone a un pubblico giovane che oggi sceglie spritz e gin tonic. Come imposti il piano editoriale del prossimo trimestre?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["target", "tono", "narrativa", "rituale", "occasione", "esperienza", "linguaggio", "format"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un post o una campagna che hai pubblicato e che hai dovuto correggere o ritirare. Cosa è successo, cosa hai imparato.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "feedback", "errore", "ascolto", "rettifica", "imparato", "community management"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Cosa rende Allegrini diversa da una Bertani o una Masi sui social? E cosa cambieresti dal nostro feed attuale?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["valpolicella", "amarone", "ripasso", "famiglia", "vigneto", "territorio", "premium", "tradizione", "competitor"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Perché Allegrini e non un'agenzia di Milano che ti paga di più?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_05": {
+      "intro_quote": "Sei nella sede Lavazza a Torino, sala riunioni quinto piano. Davanti a te il sales director Nord-Est. Vuole capire se può affidarti i clienti chiave HORECA del territorio.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: chi sei, da dove vieni nel commerciale, perché sei qui oggi.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Raccontami una trattativa HORECA che hai chiuso. Cliente, ostacoli concreti, leva che hai usato.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["cliente", "trattativa", "horeca", "ho.re.ca", "ristorante", "bar", "hotel", "margine", "volume", "premium"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Hai gestito un key account difficile. Come hai protetto il margine senza far saltare la relazione?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["account", "relazione", "margine", "negoziazione", "valore", "sconto", "leva", "accordo"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Raccontami di una volta in cui hai perso un cliente importante. Cosa è successo, cosa hai imparato.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "azione", "risultato", "imparato", "errore", "feedback"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Posizionamento Lavazza nel canale HORECA premium: cosa la distingue da Illy e Segafredo, secondo te?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["lavazza", "premium", "qualità", "miscela", "italianità", "tradizione", "competitor", "illy", "segafredo"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Perché Lavazza, e non un competitor che ti potrebbe pagare di più? Trenta secondi.",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_06": {
+      "intro_quote": "Sei al tavolo del bar di un produttore vinicolo veronese. Il titolare cerca un agente plurimandatario per il Triveneto. Vuole capire se sei uno che porta ordini veri o promesse.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: mandati che gestisci oggi, zona, perché sei interessato al mio brand.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Raccontami il tuo giro tipo in una giornata di campagna. Da che cliente parti, quanti visiti, come scegli l'ordine.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["giro", "appuntamento", "cliente", "campionario", "ordine", "visita", "telefonata", "agenda", "zona"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Devi aprire un cliente nuovo in una zona dove non sei conosciuto. Cosa fai nei primi 30 giorni, passo per passo?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["mappatura", "passaparola", "referenza", "campione", "cold call", "appuntamento", "fiducia", "test"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un cliente storico che hai perso a favore di un competitor. Cosa è successo, cosa hai recuperato dopo.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "azione", "concorrenza", "prezzo", "relazione", "risultato", "imparato"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Cosa rende un vino veronese di nicchia vendibile a un'enoteca milanese o a un ristorante di Cortina?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["territorio", "denominazione", "storia", "carta", "abbinamento", "stagionalità", "premium", "trend", "consumatore"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Quanto fatturato realistico mi porti il primo anno e su cosa scommetti?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_07": {
+      "intro_quote": "Sei nella sede TeamSystem a Verona. Il sales manager Tech vuole capire se sai chiudere deal SaaS B2B a sei zeri parlando ai CFO di PMI italiane.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: deal che hai chiuso, prodotti SaaS che hai venduto, perché TeamSystem.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi un deal SaaS B2B complesso che hai portato in chiusura. Cliente, stakeholder, durata del ciclo, ostacolo principale.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["saas", "ciclo", "decisore", "demo", "trial", "pilota", "annual contract", "discovery", "buyer", "ote"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Un CFO ti dice: \"il vostro software è caro e il nostro gestionale funziona\". Come gestisci l'obiezione senza tagliare il prezzo?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["obiezione", "valore", "roi", "costo nascosto", "tempo", "rischio", "caso d'uso", "referenza"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un deal che era a un passo dalla firma e ti è saltato. Cosa è successo, cosa hai cambiato dopo.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "decisore", "azione", "risultato", "imparato", "follow up", "champion"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "TeamSystem vende a un mercato che usa ancora Excel. Qual è secondo te il modo giusto di proporsi, oggi nel 2026?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["pmi", "digitalizzazione", "incentivo", "automazione", "ai", "compliance", "fatturazione elettronica", "cloud"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Sei nel mio team da sei mesi. Cosa avrò di concreto da te che non avrei avuto da un altro?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_08": {
+      "intro_quote": "Sei in videocall con la marketing manager di un brand fashion italiano. Vuole un video editor freelance per gestire 8 reel al mese. Vuole capire se sai pensare oltre il taglio.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: brand con cui lavori, stile che ti riconosci, tool che usi ogni giorno.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi un video che hai montato di cui sei orgoglioso. Brief iniziale, scelte di taglio, motion, audio.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["premiere", "davinci", "after effects", "motion", "color grading", "audio", "ritmo", "timeline", "transizione", "subtitle"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Ti arriva girato grezzo girato da chi non è del mestiere. Brutta luce, audio sporco. Cosa fai nei primi 30 minuti?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["selezione", "rumore", "luce", "color correction", "denoise", "stabilizzazione", "riorganizzazione", "salvabile"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un cliente che ha chiesto 10 revisioni sullo stesso video. Cosa hai fatto per chiudere la pratica senza perdere il cliente.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "brief", "azione", "limite", "revisioni", "comunicazione", "risultato", "imparato"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Quali formati video oggi funzionano davvero per un brand fashion italiano sui social? Cosa è già morto?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["reel", "tiktok", "shorts", "verticale", "hook", "ugc", "behind the scenes", "trend audio", "broll"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Day rate o forfait mensile: cosa proponi e perché tu sei più affidabile di un'agenzia?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_09": {
+      "intro_quote": "Sei allo Studio Boggeri a Milano, davanti al senior partner. Sfoglia il tuo portfolio. Vuole capire se hai ragionamento o solo gusto.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Raccontati in 60 secondi: scuola, progetti che ti rappresentano, perché design d'identità e non comunicazione generica.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Mostrami un progetto di brand identity del tuo portfolio. Brief, ricerca, scelta tipografica, sistema di palette, applicazioni.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["brief", "ricerca", "concept", "tipografia", "palette", "grid", "logotype", "applicazioni", "guideline", "figma"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Un cliente ti boccia il primo concept dicendo \"non mi piace\". Senza altre indicazioni. Cosa fai nel primo follow up?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["domanda", "ascolto", "riformulare", "moodboard", "criterio", "obiettivo", "scelta", "discussione"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un progetto pubblicato di cui oggi rifaresti delle scelte. Cosa cambieresti e perché.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "vincolo", "azione", "risultato", "imparato", "tempo", "evoluzione"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Cosa significa oggi lavorare in uno studio con la storia di Boggeri e non in un'agenzia digitale qualsiasi?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["heritage", "metodo", "qualità", "ricerca", "razionalità", "modernismo", "scuola svizzera", "milano", "rigore"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Tra tre anni: cosa avrai imparato qui che non avresti imparato altrove?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_10": {
+      "intro_quote": "Sei al campus H-FARM di Roncade, vista sul vigneto. Il delivery director cerca un PM per un programma di trasformazione digitale con un cliente corporate italiano.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: progetti che hai gestito di recente, team size, ambiti.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi un progetto digitale complesso che hai portato a chiusura. Stakeholder, budget, ostacolo principale, come l'hai gestito.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["sprint", "milestone", "budget", "stakeholder", "deliverable", "scope", "agile", "kanban", "rischio", "delivery"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Il cliente ti chiede uno scope aggiuntivo a tre settimane dal go-live. Come gestisci la conversazione e cosa proteggi?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["scope creep", "impatto", "tempo", "qualità", "budget", "negoziazione", "priorità", "trade off"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un progetto in cui hai dovuto dare una notizia brutta al cliente o al management. Cosa hai detto, come, cosa è successo dopo.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "azione", "trasparenza", "soluzione", "risultato", "imparato", "fiducia"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "H-FARM lavora con corporate italiane sull'innovazione. Qual è secondo te la difficoltà reale dell'innovazione in azienda oggi?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["innovazione", "cultura", "resistenza", "executive sponsor", "kpi", "talento", "esecuzione", "scaling", "change"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Tra sei mesi: cosa avrò di concreto da te che renderà il team più veloce o più affidabile?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_11": {
+      "intro_quote": "Sei in collegamento video con il CEO di una PMI manifatturiera del Nord-Est. Vuole capire se vale la pena affidarti un percorso di formazione AI per la sua azienda di 80 persone.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: chi sei, da dove arrivi, perché formi le persone sull'AI.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Raccontami un percorso formativo AI che hai progettato. Pubblico, formato, risultato concreto.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["formazione", "aula", "workshop", "ai", "prompt", "casi d'uso", "esercitazione", "valutazione"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Hai davanti un manager scettico sull'AI. Come imposti la prima ora di formazione per non perderlo?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["scettico", "ascolto", "esempio", "demo", "obiezione", "valore", "concreto"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Una formazione che non ha funzionato come speravi. Situazione, azione, risultato, lezione.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "azione", "risultato", "imparato", "feedback", "miglioramento"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Cosa cambia, per una PMI italiana, adottare l'AI nel 2026 rispetto a tre anni fa? Concretamente.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["pmi", "italia", "produttività", "competitività", "automazione", "concretamente", "roi", "tempo"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Convincimi in trenta secondi: perché dovrei affidare a te il percorso AI della mia azienda?",
+          "focus_metric": "energia"
+        }
+      ]
+    },
+    "job_12": {
+      "intro_quote": "Sei nella cucina di Casa Perbellini a Verona, prima del servizio serale. Lo chef ti osserva mentre il pass è ancora pulito. Vuole capire se reggi due stelle Michelin.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "warmup",
+          "text": "Presentati in 60 secondi: dove hai lavorato, brigate che hai vissuto, perché vuoi essere qui.",
+          "focus_metric": "presenza"
+        },
+        {
+          "id": "q2",
+          "type": "technical_role",
+          "text": "Descrivi un piatto che hai costruito o che hai gestito al pass. Ingredienti, cottura, impiattamento, tempistica.",
+          "focus_metric": "specificita",
+          "keyword_targets": ["pass", "mise en place", "cottura", "impiattamento", "stagionalità", "carta", "service", "brigata", "tempo", "tecnica"]
+        },
+        {
+          "id": "q3",
+          "type": "skill_required",
+          "text": "Mancano due commis a metà service di una sera piena. Cosa fai nei primi cinque minuti per non far saltare il pass?",
+          "focus_metric": "struttura",
+          "keyword_targets": ["priorità", "riassegnazione", "ruolo", "comunicazione", "calma", "carta", "tempi", "esecuzione"]
+        },
+        {
+          "id": "q4",
+          "type": "behavioral_star",
+          "text": "Un service difficile in cui ti sei trovato in difficoltà. Cosa è successo, come hai gestito, cosa hai imparato.",
+          "focus_metric": "struttura",
+          "keyword_targets": ["situazione", "azione", "service", "errore", "recupero", "risultato", "imparato", "brigata"]
+        },
+        {
+          "id": "q5",
+          "type": "brand_knowledge",
+          "text": "Cosa rende Casa Perbellini diversa da altri ristoranti stellati che hai conosciuto? Cosa hai assaggiato qui che ti è rimasto?",
+          "focus_metric": "specificita",
+          "keyword_targets": ["michelin", "stagionalità", "territorio", "tecnica", "carta", "menu", "esperienza", "memoria", "perbellini"]
+        },
+        {
+          "id": "q6",
+          "type": "closing",
+          "text": "Tra un anno, perché dovrei essere contento di averti preso e non un altro sous chef?",
+          "focus_metric": "energia"
+        }
+      ]
+    }
+  }
+}

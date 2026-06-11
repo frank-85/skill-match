@@ -1,0 +1,107 @@
+{
+  "areas": {
+    "TECH": {
+      "label": "Tecnologia & sviluppo",
+      "description": "Codice, dati, AI, infrastruttura",
+      "icon": "💻"
+    },
+    "BIZ": {
+      "label": "Marketing & growth",
+      "description": "Copywriting, social, SEO, brand",
+      "icon": "📈"
+    },
+    "SELL": {
+      "label": "Commerciale & vendita",
+      "description": "Agente, B2B field, key account, wholesale",
+      "icon": "🤝"
+    },
+    "CREA": {
+      "label": "Creatività & contenuti",
+      "description": "Video, design, foto, illustrazione",
+      "icon": "🎨"
+    },
+    "OPS": {
+      "label": "Operations & gestione",
+      "description": "Project management, HR, amministrazione",
+      "icon": "⚙️"
+    },
+    "REL": {
+      "label": "Relazione & cura",
+      "description": "Customer success, formazione, coaching",
+      "icon": "🤲"
+    },
+    "CRAFT": {
+      "label": "Mestiere & artigianalità",
+      "description": "Cucina, ceramica, restauro, mestieri",
+      "icon": "🔨"
+    }
+  },
+  "tags": [
+    { "id": "tech.ai_tools",       "label": "ChatGPT / Claude / AI generativi", "area": "TECH" },
+    { "id": "tech.python",         "label": "Python",                            "area": "TECH" },
+    { "id": "tech.javascript",     "label": "JavaScript / TypeScript / React",   "area": "TECH" },
+    { "id": "tech.data",           "label": "Excel avanzato / SQL / analytics",  "area": "TECH" },
+    { "id": "tech.no_code",        "label": "No-code (Zapier, Make, Bubble)",    "area": "TECH" },
+    { "id": "tech.web_basic",      "label": "HTML/CSS / WordPress",              "area": "TECH" },
+    { "id": "tech.mobile_dev",     "label": "Sviluppo mobile (iOS/Android)",     "area": "TECH" },
+    { "id": "tech.devops",         "label": "Docker / cloud / CI-CD",            "area": "TECH" },
+
+    { "id": "biz.copywriting",     "label": "Copywriting",                                "area": "BIZ" },
+    { "id": "biz.social_media",    "label": "Social media management",                    "area": "BIZ" },
+    { "id": "biz.seo_sem",         "label": "SEO / SEM / Google Ads",                     "area": "BIZ" },
+    { "id": "biz.email_marketing", "label": "Email marketing / newsletter",               "area": "BIZ" },
+    { "id": "biz.brand_strategy",  "label": "Brand strategy / positioning",               "area": "BIZ" },
+    { "id": "biz.content_strategy","label": "Content strategy",                           "area": "BIZ" },
+    { "id": "biz.growth_hacking",  "label": "Growth hacking / funnel",                    "area": "BIZ" },
+    { "id": "biz.event_marketing", "label": "Event marketing",                            "area": "BIZ" },
+    { "id": "biz.influencer_mgmt", "label": "Influencer management",                      "area": "BIZ" },
+    { "id": "biz.analytics_marketing", "label": "Analytics marketing (GA, Meta, etc.)",   "area": "BIZ" },
+
+    { "id": "sell.b2b_field",      "label": "Vendita B2B sul campo",                       "area": "SELL" },
+    { "id": "sell.key_account",    "label": "Gestione clienti chiave",                     "area": "SELL" },
+    { "id": "sell.wholesale",      "label": "Vendita all'ingrosso / distribuzione",        "area": "SELL" },
+    { "id": "sell.agente_p_iva",   "label": "Agenzia / rappresentanza in P.IVA",           "area": "SELL" },
+    { "id": "sell.channel_mgmt",   "label": "Gestione rete distributiva",                  "area": "SELL" },
+    { "id": "sell.cold_outreach",  "label": "Prospecting freddo / lead generation",        "area": "SELL" },
+    { "id": "sell.negotiation",    "label": "Negoziazione strutturata",                    "area": "SELL" },
+    { "id": "sell.ho_re_ca",       "label": "Canale Horeca / retail specializzato",        "area": "SELL" },
+    { "id": "sell.tech_sales",     "label": "Vendita SaaS / software / tech",              "area": "SELL" },
+    { "id": "sell.retail_store",   "label": "Vendita assistita in punto vendita",          "area": "SELL" },
+
+    { "id": "crea.video_editing",  "label": "Video editing",                               "area": "CREA" },
+    { "id": "crea.motion_graphics","label": "Motion graphics / animazione",                "area": "CREA" },
+    { "id": "crea.graphic_design", "label": "Graphic design",                              "area": "CREA" },
+    { "id": "crea.brand_visual",   "label": "Brand visual identity",                       "area": "CREA" },
+    { "id": "crea.photography",    "label": "Fotografia professionale",                    "area": "CREA" },
+    { "id": "crea.illustration",   "label": "Illustrazione",                               "area": "CREA" },
+    { "id": "crea.ui_design",      "label": "UI design (Figma)",                           "area": "CREA" },
+    { "id": "crea.content_creation","label": "Content creation (Reels/TikTok)",            "area": "CREA" },
+
+    { "id": "ops.project_mgmt",    "label": "Project management",                          "area": "OPS" },
+    { "id": "ops.team_lead",       "label": "Team leadership",                             "area": "OPS" },
+    { "id": "ops.hr",              "label": "HR / recruiting",                             "area": "OPS" },
+    { "id": "ops.amministrazione", "label": "Amministrazione / contabilità",               "area": "OPS" },
+    { "id": "ops.logistics",       "label": "Logistica / supply chain",                    "area": "OPS" },
+    { "id": "ops.compliance",      "label": "Compliance / GDPR / qualità",                 "area": "OPS" },
+    { "id": "ops.budget_mgmt",     "label": "Gestione budget",                             "area": "OPS" },
+    { "id": "ops.process_optimization", "label": "Ottimizzazione processi",                "area": "OPS" },
+
+    { "id": "rel.customer_care",   "label": "Customer care / customer success",            "area": "REL" },
+    { "id": "rel.formazione",      "label": "Formazione / docenza aziendale",              "area": "REL" },
+    { "id": "rel.coaching",        "label": "Coaching individuale",                        "area": "REL" },
+    { "id": "rel.public_speaking", "label": "Public speaking",                             "area": "REL" },
+    { "id": "rel.community_mgmt",  "label": "Community management",                        "area": "REL" },
+    { "id": "rel.mediation",       "label": "Mediazione / risoluzione conflitti",          "area": "REL" },
+    { "id": "rel.event_hosting",   "label": "Conduzione eventi",                           "area": "REL" },
+    { "id": "rel.consulenza_relazionale", "label": "Consulenza relazionale ai clienti",    "area": "REL" },
+
+    { "id": "craft.cucina",        "label": "Cucina professionale",                        "area": "CRAFT" },
+    { "id": "craft.ceramica",      "label": "Ceramica / artigianato",                      "area": "CRAFT" },
+    { "id": "craft.legno_restauro","label": "Lavorazione legno / restauro",                "area": "CRAFT" },
+    { "id": "craft.tessile",       "label": "Tessile / sartoria",                          "area": "CRAFT" },
+    { "id": "craft.somelier",      "label": "Sommellerie",                                 "area": "CRAFT" },
+    { "id": "craft.fotografia_artigianale", "label": "Fotografia di mestiere",             "area": "CRAFT" },
+    { "id": "craft.brigata_kitchen","label": "Gestione brigata di cucina",                 "area": "CRAFT" },
+    { "id": "craft.shop_management","label": "Gestione punto vendita / negozio",           "area": "CRAFT" }
+  ]
+}

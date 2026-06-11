@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy-deep: #0A1F44;
+  --color-navy-medium: #1E3A8A;
+  --color-gold: #C9A961;
+  --color-gold-soft: #F5E6C8;
+  --color-bg: #FAFAF7;
+  --color-ink: #1A1A1A;
+  --color-warn: #F97316;
+}
+
+@layer base {
+  html { font-family: 'Inter', system-ui, sans-serif; }
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
