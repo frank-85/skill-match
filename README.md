@@ -105,7 +105,7 @@ Limiti noti e roadmap:
 **Francesco Guerra** — Verona
 Marketing automation & CRM (7+ anni) · AI-assisted development
 
-[LinkedIn](https://www.linkedin.com/in/frank-war-85) · [GitHub](https://github.com/frank-85) · francesco.war85@gmail.com
+[LinkedIn](https://www.linkedin.com/in/frguerra/) · [GitHub](https://github.com/frank-85) · francesco.war85@gmail.com
 
 ---
 
