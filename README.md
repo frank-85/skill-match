@@ -103,7 +103,7 @@ Limiti noti e roadmap:
 ## Autore
 
 **Francesco Guerra** — Verona
-Marketing automation & CRM (7+ anni) · AI-assisted development
+Marketing automation & CRM (3+ anni) · AI-assisted development
 
 [LinkedIn](https://www.linkedin.com/in/frguerra/) · [GitHub](https://github.com/frank-85) · francesco.war85@gmail.com
 
